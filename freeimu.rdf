@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:doaml="http://ns.balbinus.net/doaml#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:lp="https://launchpad.net/rdf/launchpad#"
+         xmlns:wot="http://xmlns.com/wot/0.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <lp:Product>
+        <lp:specifiedAt rdf:resource="/freeimu/+rdf"/>
+        <lp:name>freeimu</lp:name>
+        <lp:displayName>FreeIMU</lp:displayName>
+        <lp:title>FreeIMU</lp:title>
+        <lp:shortDescription>FreeIMU is a libre 9DOM/DOF inertial measurement unit. It is a small PCB with an accelerometer (ADXL345), a gyroscope (ITG3200) and a magnetometer (HMC5843). FreeIMU can be easily used on Arduino compatible boards using the Arduino FreeIMU library which implements sensor fusion MARG orientation filter enabling you to do easy and straightforward orientation sensing.</lp:shortDescription>
+        <lp:description>FreeIMU PCB is a libre hardware, it's designs are released under CC-BY-SA and have been produced using KiCAD a libre PCB design software. You have the freedom to study, modify, improve and even produce and sell your own FreeIMUs. But, you will have to share your desings keeping attribution and sharing them using the same libre license.
+
+FreeIMU sensor fusion orientation filtering library is libre software released under the GNU GPL v3.</lp:description>
+        <lp:creationDate>2011-01-19 00:09:31 UTC</lp:creationDate>
+        <lp:homepage rdf:resource="http://www.varesano.net/blog/fabio/freeimu-designing-free-speech-9-domdof-marg-imu"/>
+        
+        <lp:programmingLanguage>C, Arduino, Processing, KiCAD, Python</lp:programmingLanguage>
+        
+        
+        <lp:series>
+            <lp:ProductSeries>
+                <lp:specifiedAt
+    rdf:resource="/freeimu/trunk/+rdf"/>
+            </lp:ProductSeries>
+        </lp:series>
+        <lp:owner>
+            <foaf:Agent>
+                <foaf:Account
+    rdf:resource="/~fabio-varesano/+rdf"/>
+            </foaf:Agent>
+        </lp:owner>
+        <lp:status>Active</lp:status>
+        
+    </lp:Product>
+</rdf:RDF>
